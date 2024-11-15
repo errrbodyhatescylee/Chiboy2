@@ -70,7 +70,7 @@ const path = require ("path");
 *Followers:* ${followers}
 *Following:* ${following}
 
-\t*Queen_NIKKA IG STALKER*
+\t*Queen_Kylie IG STALKER*
 `;
 
       await m.bot.sendFromUrl(m.from, photo_profile, caption, m, {}, "image");
@@ -587,7 +587,7 @@ smd(
    desc: "text to speech.",
    category: "downloader",
    filename: __filename,
-   use: "<Hii,this is NIKKA>"
+   use: "<Hii,this is Kylie>"
  }, async (_0x55aba2, _0x56da6b) => {
    try {
      let _0x204f81 = _0x55aba2.reply_text ? _0x55aba2.reply_text : _0x56da6b;
@@ -607,7 +607,7 @@ smd(
          },
          mimetype: "audio/mpeg",
          ptt: true,
-         fileName: "Queen_NIKKA-Md-tts.m4a"
+         fileName: "Queen_Kylie-Md-tts.m4a"
        }, {
          quoted: _0x55aba2
        });
@@ -655,7 +655,7 @@ smd(
      };
      let _0x4737bb = {
        audio: _0x2ba501,
-       fileName: "NIKKA-Md tiktok Sound" + _0x19c223 + ".m4a",
+       fileName: "Kylie-Md tiktok Sound" + _0x19c223 + ".m4a",
        mimetype: "audio/mpeg",
        ptt: true,
        contextInfo: _0x29fdd9
@@ -1159,15 +1159,15 @@ smd(
       const reference = `${query}`; // This will be used as the subtitle (chapter/verse)
       
       // Structuring the message with reduced space
-      const message = `╔════N═I═K═K═A════════🍀\n` +
+      const message = `╔════k═y═l═i═e════════\n` +
                       `║ *🛐Content:* ${verse.trim()}\n` +  // trim() removes any unnecessary whitespace
                       `║ *✨Reference:* ${reference}\n` +
-                      `║ *✨powered By Queen Nikka\n` +
-                      `╚═════N═I═K═K═A════🍀`;
+                      `║ *✨powered By Queen Kylie\n` +
+                      `╚═════k═y═l═i═e════🧸`;
 
       await m.send(message);
     } catch (e) {
       await m.error(`${e}\n\ncommand: bible`, e);
     }
   }
-);
+); 
