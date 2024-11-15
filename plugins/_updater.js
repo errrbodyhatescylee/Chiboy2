@@ -1,4 +1,4 @@
-const DB = require("../lib/scraper");
+Lconst DB = require("../lib/scraper");
 const { Config, smd } = require("../lib");
 const simpleGit = require("simple-git");
 const git = simpleGit();
@@ -37,7 +37,7 @@ try {
       desc: "Shows repo's refreshed commits.",
       category: "tools",
       fromMe: true,
-      react: "🍂",
+      react: "🧸",
       filename: __filename,
       use: process.env.HEROKU_API_KEY ? "[ start ]" : "",
     },
@@ -46,12 +46,12 @@ try {
         let commits = await DB.syncgit();
         if (commits.total === 0)
           return await citel.reply(
-            `*QUEEN_ALYA IS RUNNING ON LATEST\nPATCHES\nFIXES\UPGRADES*`
+            `*QUEEN_KYLIE IS RUNNING ON LATEST\nPATCHES\nFIXES\UPGRADES*`
           );
         let update = await DB.sync();
         await citel.bot.sendMessage(
           citel.chat,
-          { text: update.replace(/SuhailTechIMd/, " David Cyril") },
+          { text: update.replace(/Queen_KylieMd/, " Sir Cylee") },
           { quoted: citel }
         );
         if (
